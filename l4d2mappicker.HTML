@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+var maps = [
+  "No Mercy",
+  "Crash Course",
+  "Death Toll",
+  "Dead Air",
+  "Blood Harvist",
+  "The Sacrifice",
+  "The Last Stand",
+  "Dead Center",
+  "The Passing",
+  "Dark Carnival",
+  "Swamp Fever",
+  "Hard Rain",
+  "The Parish"
+];
+
+var randommap = maps[Math.floor(Math.random()*maps.length)];
+
+document.body.innerHTML = randommap;
+document.body.style.backgroundColor = "black";
+document.body.style.color = "white";
+document.body.style.textAlign = "center";
+document.body.style.fontSize = "xx-large";
+document.body.style.fontFamily = "Arial, Helvetica, sans-serif"
+</script>
+<br>
+<button onClick="window.location.reload();">reroll</button>
+<br>
+<img src="https://i.imgur.com/2Da9LA0.png"
+</body>
+</html>
